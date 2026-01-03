@@ -1,0 +1,26 @@
+num=int(input("Enter a number: "))
+if num>0:
+    print("Positive")
+elif num<0:
+    print("Negative")
+else:
+    print("Zero")
+# This program checks if a number is positive, negative, or zero.   
+
+"""
+#include <stdio.h>
+int main()
+{
+    int num = 23;
+      
+    //Conditions to check if the number is negative/positive or zero
+    if (num > 0)
+         printf("The number is positive");
+    else if (num < 0)
+        printf("The number is negative");
+    else
+        printf("Zero");
+    
+    return 0;
+}
+"""
